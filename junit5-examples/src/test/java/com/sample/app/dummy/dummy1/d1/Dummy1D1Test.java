@@ -1,15 +1,16 @@
-package com.sample.app.dummy;
+package com.sample.app.dummy.dummy1.d1;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-@Tag("prod")
-public class DummyTest {
+@Tag("qa")
+public class Dummy1D1Test {
 
 	@Test
 	public void test1() {
 		assertTrue(true);
 	}
+
 }
